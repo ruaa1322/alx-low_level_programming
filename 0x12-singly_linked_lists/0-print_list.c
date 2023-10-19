@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * _strlen - return the length of a string
@@ -13,7 +13,7 @@ int _strlen(char *s)
 
 	if (!s)
 		return (0);
-	while (*s = s + 1)
+	while (*s++)
 		i = i + 1;
 	return  (i);
 }
