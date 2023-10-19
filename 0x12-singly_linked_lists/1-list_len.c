@@ -3,7 +3,7 @@
 /**
  *list_len - determine  length
  *@h: pointer
- *Retunr: size of list
+ *Return: size of list
  */
 size_t list_len(const list_t *h)
 {

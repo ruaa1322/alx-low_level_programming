@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * _strlen - return the length of a string
- * @s:string of lurngth for check
+ * _strlen - returns the length of a string
+ * @s:string of length for check
  *
  * Return: int string length
  */
@@ -18,10 +18,10 @@ int _strlen(char *s)
 	return  (i);
 }
 /**
- * print_list - print length of string
+ * print_list - prints length of string
  * @h:first node pointer
  *
- * Return:
+ * Return: size of list
  */
 size_t print_list(const list_t *h)
 {
